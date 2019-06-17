@@ -12,6 +12,10 @@
 		61084A9B22B76F1D00D66E53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61084A9922B76F1D00D66E53 /* Main.storyboard */; };
 		61084A9D22B76F2100D66E53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61084A9C22B76F2100D66E53 /* Assets.xcassets */; };
 		61084AA022B76F2100D66E53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61084A9E22B76F2100D66E53 /* LaunchScreen.storyboard */; };
+		61084AA822B770B900D66E53 /* boat.png in Resources */ = {isa = PBXBuildFile; fileRef = 61084AA722B770B800D66E53 /* boat.png */; };
+		61084AAA22B7784400D66E53 /* MyImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61084AA922B7784400D66E53 /* MyImageView.swift */; };
+		61084AAC22B7857F00D66E53 /* MyBounceAndRollBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61084AAB22B7857F00D66E53 /* MyBounceAndRollBehavior.swift */; };
+		61084AAE22B78A8700D66E53 /* UIDynamicAnimator+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61084AAD22B78A8700D66E53 /* UIDynamicAnimator+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		61084A9C22B76F2100D66E53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61084A9F22B76F2100D66E53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61084AA122B76F2100D66E53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61084AA722B770B800D66E53 /* boat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boat.png; sourceTree = "<group>"; };
+		61084AA922B7784400D66E53 /* MyImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImageView.swift; sourceTree = "<group>"; };
+		61084AAB22B7857F00D66E53 /* MyBounceAndRollBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBounceAndRollBehavior.swift; sourceTree = "<group>"; };
+		61084AAD22B78A8700D66E53 /* UIDynamicAnimator+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDynamicAnimator+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +46,9 @@
 		61084A8922B76F1C00D66E53 = {
 			isa = PBXGroup;
 			children = (
+				61084AAB22B7857F00D66E53 /* MyBounceAndRollBehavior.swift */,
+				61084AAD22B78A8700D66E53 /* UIDynamicAnimator+Extensions.swift */,
+				61084AA922B7784400D66E53 /* MyImageView.swift */,
 				61084A9422B76F1C00D66E53 /* UIKitDynamics */,
 				61084A9322B76F1C00D66E53 /* Products */,
 			);
@@ -60,6 +71,7 @@
 				61084A9C22B76F2100D66E53 /* Assets.xcassets */,
 				61084A9E22B76F2100D66E53 /* LaunchScreen.storyboard */,
 				61084AA122B76F2100D66E53 /* Info.plist */,
+				61084AA722B770B800D66E53 /* boat.png */,
 			);
 			path = UIKitDynamics;
 			sourceTree = "<group>";
@@ -123,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				61084AA022B76F2100D66E53 /* LaunchScreen.storyboard in Resources */,
+				61084AA822B770B900D66E53 /* boat.png in Resources */,
 				61084A9D22B76F2100D66E53 /* Assets.xcassets in Resources */,
 				61084A9B22B76F1D00D66E53 /* Main.storyboard in Resources */,
 			);
@@ -135,8 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61084AAE22B78A8700D66E53 /* UIDynamicAnimator+Extensions.swift in Sources */,
 				61084A9822B76F1C00D66E53 /* ViewController.swift in Sources */,
 				61084A9622B76F1C00D66E53 /* AppDelegate.swift in Sources */,
+				61084AAC22B7857F00D66E53 /* MyBounceAndRollBehavior.swift in Sources */,
+				61084AAA22B7784400D66E53 /* MyImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

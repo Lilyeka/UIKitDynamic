@@ -9,12 +9,22 @@
 import UIKit
 
 class ViewController: UIViewController {
+    var anim: UIDynamicAnimator?
+    var iv : MyImageView = {
+        var iv = MyImageView(image: UIImage(named: "boat")!)
+        iv.frame = CGRect(x: 50, y: 50, width: 50, height: 50)
+        return iv
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        view.addSubview(iv)
+        anim = UIDynamicAnimator(referenceView: self.view)
+        anim?.addBehavior(MyBounceAndRollBehavior(view:self.iv))
     }
-
-
 }
+
+
+
+
 
