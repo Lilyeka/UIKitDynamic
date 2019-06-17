@@ -42,6 +42,7 @@ class MyBounceAndRollBehavior: UIDynamicBehavior {
         
         let bounce = UIDynamicItemBehavior()
         bounce.elasticity = 0.8
+        bounce.friction = 0.3
         bounce.addItem(self.v)
         self.addChildBehavior(bounce)
     }
